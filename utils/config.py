@@ -1,0 +1,15 @@
+params = {
+    'booster': 'gbtree',
+    'objective':'multi:softmax',
+    'num_class':2,
+    'gamma':0.1,
+    'max_depth':6,
+    'lambda':2,
+    'subsample':0.7,
+    'colsample_bytree':0.7,
+    'min_child_weight':3,
+    'silent':1,
+    'eta':0.1,
+    'seed':1000,
+    'nthread':4,
+}
